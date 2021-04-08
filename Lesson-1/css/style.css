@@ -13,7 +13,7 @@ ul,
 blockquote {
   width: 700px;
   margin: auto;
-  color: red;
+  color: #000;
 }
 
 img {
@@ -37,7 +37,6 @@ h1 {
   font-size: 40px;
   line-height: 46px;
   margin-top: 63px;
-  color: #000000;
 }
 
 h2 {
@@ -62,7 +61,6 @@ h1 + p {
 h1 + p + p {
   font-size: 22px;
   line-height: 34px;
-  color: #000;
   margin-top: 30px;
 }
 
@@ -78,18 +76,38 @@ img + h2 {
   margin-top: 7px;
   font-size: 22px;
   line-height: 34px;
-  color: red;
 }
 .cont-tall {
   margin-top: 29px;
 }
 
-p + h2 {
+h2 {
   margin-top: 43px;
 }
 blockquote {
+  font-family: "PT Sans", sans-serif;
   width: 720px;
   padding-left: 17px;
   font-style: italic;
   border-left: 3px solid #333;
+}
+
+.arch {
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}
+.type {
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+li {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 17px;
+  font-size: 22px;
+  line-height: 34px;
+  margin-left: 8px;
 }
