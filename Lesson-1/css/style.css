@@ -37,6 +37,18 @@ h1 {
   font-size: 40px;
   line-height: 46px;
   margin-top: 63px;
+  color: #000000;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  margin-top: 35px;
+  font-size: 28px;
+  line-height: 34px;
 }
 
 h1 + p {
@@ -45,4 +57,39 @@ h1 + p {
   line-height: 32px;
   color: rgba(0, 0, 0, 0.4);
   margin-top: 16px;
+}
+
+h1 + p + p {
+  font-size: 22px;
+  line-height: 34px;
+  color: #000;
+  margin-top: 30px;
+}
+
+img {
+  margin-top: 80px;
+}
+
+img + h2 {
+  margin-top: 78px;
+}
+
+.cont {
+  margin-top: 7px;
+  font-size: 22px;
+  line-height: 34px;
+  color: red;
+}
+.cont-tall {
+  margin-top: 29px;
+}
+
+p + h2 {
+  margin-top: 43px;
+}
+blockquote {
+  width: 720px;
+  padding-left: 17px;
+  font-style: italic;
+  border-left: 3px solid #333;
 }
