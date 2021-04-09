@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+blockquote {
+  width: 1200px;
+  margin: auto;
+  color: #000;
+}
+
+.img {
+  width: 1020px;
+  margin: 50px auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 63px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+h4 {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+  font-size: 18px;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 7px;
+  font-size: 17px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  position: relative;
+}
+
+blockquote::before {
+  content: url("../img/left-ar.png");
+  transform: scale(0.06);
+  width: 20px;
+  height: 20px;
+  left: -50px;
+  top: 0;
+  display: block;
+  position: absolute;
+}
+blockquote::after {
+  content: url("../img/right-ar.png");
+  transform: scale(0.06);
+  width: 20px;
+  height: 20px;
+  right: -20px;
+  bottom: 30px;
+  display: block;
+  position: absolute;
+}
