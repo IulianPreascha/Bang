@@ -113,3 +113,11 @@ li {
   font-size: 17px;
   margin-bottom: 10px;
 }
+
+article ul li {
+  list-style: disc;
+}
+
+article ol li {
+  list-style: decimal inside;
+}

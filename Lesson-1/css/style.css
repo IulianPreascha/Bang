@@ -117,3 +117,11 @@ blockquote::before {
   background-color: red;
   margin-left: -20px;
 }
+
+article ul li {
+  list-style: disc;
+}
+
+article ol li {
+  list-style: decimal inside;
+}

@@ -6,6 +6,10 @@ nav {
   margin-left: 0px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav ul {
   margin: 0;
 }
