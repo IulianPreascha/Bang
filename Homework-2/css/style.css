@@ -25,7 +25,6 @@ h4 {
   font-weight: bold;
 }
 
-h1,
 h2 {
   font-weight: 500;
 }
@@ -40,6 +39,8 @@ h1 {
 h2 {
   font-size: 32px;
   line-height: 36px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000;
 }
 
 h3 {
@@ -71,27 +72,44 @@ p {
   margin-bottom: 10px;
 }
 
+.blockquote p {
+  width: 1100px;
+}
+
 blockquote {
   position: relative;
 }
 
 blockquote::before {
   content: url("../img/left-ar.png");
-  transform: scale(0.06);
+  transform: scale(0.05);
+  opacity: 0.3;
   width: 20px;
   height: 20px;
-  left: -50px;
+  left: 0px;
   top: 0;
   display: block;
   position: absolute;
 }
 blockquote::after {
   content: url("../img/right-ar.png");
-  transform: scale(0.06);
+  transform: scale(0.05);
+  opacity: 0.3;
   width: 20px;
   height: 20px;
-  right: -20px;
+  right: 30px;
   bottom: 30px;
   display: block;
   position: absolute;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 7px;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
