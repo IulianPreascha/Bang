@@ -16,7 +16,7 @@ p {
 }
 
 article {
-  padding-bottom: 70px;
+  padding: 50px 0 70px;
 }
 
 @media (max-width: 1024px) {
