@@ -10,6 +10,16 @@ nav {
   transition: all 0.3s ease;
 }
 
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+
+nav li:hover {
+  color: blue;
+}
+
 nav:hover {
   opacity: 1;
 }
