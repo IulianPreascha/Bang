@@ -15,6 +15,10 @@ p {
   font-family: "PT Sans", sans-serif;
 }
 
+article {
+  padding-bottom: 70px;
+}
+
 @media (max-width: 1024px) {
   article img {
     width: 100%;
@@ -33,6 +37,18 @@ p {
     width: calc(100% - 20px);
   }
 
+  article ol li {
+    width: calc(100% - 40px);
+  }
+}
+@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  article {
+    margin: 0 auto;
+  }
+  article img {
+    width: calc(100vw - 20px);
+    height: calc(100vw - 20px);
+  }
   article ol li {
     width: calc(100% - 40px);
   }

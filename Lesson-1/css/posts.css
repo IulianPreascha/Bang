@@ -21,7 +21,6 @@ body.posts {
 }
 
 .postTeaser figure {
-  background-image: url("../img/narkomfin1.png");
   height: 200px;
   background-position: center;
   background-size: cover;
