@@ -5,6 +5,8 @@ body.landing {
 }
 
 .contentWrapper {
+  position: relative;
+
   width: 1920px;
   height: 850px;
   margin: 0 auto;
@@ -25,10 +27,6 @@ body.landing {
 
 .textContainer {
   width: 580px;
-}
-
-#section-1 {
-  position: relative;
 }
 
 #section-1 .textContainer {
@@ -59,7 +57,7 @@ body.landing {
   height: 681px;
 }
 
-#section-2 .contentContainer .textContainer {
+#section-2 .textContainer {
   position: absolute;
   top: 58px;
   right: 0;
@@ -75,7 +73,17 @@ body.landing {
   background-image: url("../img/desktop/desktop/desktop-section-2-large.jpg");
 }
 
+#section-3 .textContainer {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+}
+
 #section-3-image {
+  position: absolute;
+  top: 145px;
+  left: 830px;
+
   width: 1393px;
   height: 883px;
   background-image: url("../img/desktop/desktop/desktop-section-3-large.jpg");
