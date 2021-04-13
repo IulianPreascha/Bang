@@ -32,3 +32,9 @@ menu a.current {
 menu a.current:hover {
   color: rgba(0, 0, 0, 0.4);
 }
+
+menu a:first-child {
+  width: 180px;
+  height: 16px;
+  background-image: url("../img/logo/Wikimedium-Logo.svg");
+}

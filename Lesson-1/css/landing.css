@@ -1,0 +1,21 @@
+body.landing {
+  /* background-image: url("../img/layer/1440.jpg");
+  background-position: top; */
+}
+.contentWrapper {
+}
+#section-1-image {
+  background-image: url("../img/desktop/desktop/desktop-section-1-large.jpg");
+  width: 1161px;
+  height: 666px;
+}
+#section-2-image {
+  background-image: url("../img/desktop/desktop/desktop-section-2-large.jpg");
+  width: 651px;
+  height: 675px;
+}
+#section-3-image {
+  background-image: url("../img/desktop/desktop/desktop-section-3-large.jpg");
+  width: 1393px;
+  height: 883px;
+}
