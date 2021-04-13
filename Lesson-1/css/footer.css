@@ -3,7 +3,8 @@ footer {
   justify-content: space-between;
   align-items: center;
 
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   height: 60px;
   margin: -60px auto 0;
   padding: 0 40px;
