@@ -13,3 +13,9 @@ footer {
   line-height: 14px;
   color: rgba(102, 102, 102, 0.8);
 }
+
+@media (max-width: 1440px) {
+  footer {
+    padding: 0 20px;
+  }
+}
