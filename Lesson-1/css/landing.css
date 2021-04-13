@@ -164,9 +164,22 @@ body.landing {
     background-position: top;
   }
 
+  .contentWrapper {
+    height: 800px;
+  }
+
   #section-1-image {
     width: 1079px;
     height: 618px;
+  }
+
+  #section-2 .contentContainer {
+    width: 1243px;
+    height: 626px;
+  }
+
+  #section-2 .textContainer {
+    top: 34px;
   }
 
   #section-2-image {
@@ -175,6 +188,8 @@ body.landing {
   }
 
   #section-3-image {
+    top: 140px;
+    left: 760px;
     width: 1288px;
     height: 816px;
   }
