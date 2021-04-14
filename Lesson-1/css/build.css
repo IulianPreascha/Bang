@@ -998,11 +998,11 @@ footer {
     justify-content: center;
   }
 
-  footer div:first-child {
+  footer > div:first-child {
     margin-bottom: 18px;
   }
 
-  footer div:last-child {
+  footer > div:last-child {
     margin-top: 16px;
   }
 }
