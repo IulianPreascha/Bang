@@ -1,4 +1,9 @@
 body.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+
   background-image: url("../img/layer/2560.jpg");
   background-position: center -50px;
   background-repeat: no-repeat;
@@ -12,7 +17,6 @@ body.landing {
   max-width: 1920px;
   min-width: 1440px;
   height: 850px;
-  margin: 0 auto;
 }
 
 .contentWrapper h2 {
@@ -94,6 +98,8 @@ body.landing {
   width: 1393px;
   height: 883px;
   background-image: url("../img/desktop/desktop/desktop-section-3-large.jpg");
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 #section-4 {
