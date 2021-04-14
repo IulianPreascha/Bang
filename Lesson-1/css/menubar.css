@@ -55,7 +55,7 @@ menu a:first-child {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1250px) {
   menu a {
     font-size: 12px;
     line-height: 16px;
