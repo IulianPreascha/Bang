@@ -29,3 +29,21 @@ footer {
     line-height: 16px;
   }
 }
+
+@media (max-width: 767px) and (orientation: portrait) {
+  footer {
+    height: 153px;
+    padding: 30px 0px 32px;
+
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer div:first-child {
+    margin-bottom: 18px;
+  }
+
+  footer div:last-child {
+    margin-top: 16px;
+  }
+}

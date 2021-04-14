@@ -387,3 +387,93 @@ body.landing {
     height: 883px;
   }
 }
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .contentWrapper h2 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .contentWrapper p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .textContainer {
+    width: 300px;
+  }
+
+  #section-1 .textContainer,
+  #section-2 .textContainer,
+  #section-3 .textContainer {
+    top: 100px;
+    left: calc((100vw - 300px) / 2);
+  }
+
+  #section-4 .textContainer {
+    top: 100px;
+    left: clac((100vw - 300px) / 2);
+    width: 300px;
+  }
+
+  #section-1 {
+    height: 602px;
+  }
+
+  #section-1-image {
+    top: 258px;
+    left: 10px;
+
+    width: 600px;
+    height: 344px;
+  }
+
+  #section-2 {
+    height: 613px;
+  }
+
+  #section-2-image {
+    top: 301px;
+    left: calc((100vw - 300px) / 2);
+
+    width: 300px;
+    height: 312px;
+  }
+
+  #section-3 {
+    height: 662px;
+  }
+
+  #section-3-image {
+    top: 293px;
+    left: 10px;
+    width: 718px;
+    height: 456px;
+  }
+
+  #section-4 {
+    height: 632px;
+  }
+
+  #section-4 .buttonContainer {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #section-4 .primary,
+  #section-4 .secondary {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+
+  #section-4 .primary {
+    margin-bottom: 10px;
+  }
+
+  #section-4 .secondary {
+    margin-right: 0px;
+  }
+}
