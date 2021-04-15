@@ -47,6 +47,10 @@ body.landing {
   background-size: cover;
 }
 
+.social-likes_single {
+  top: -144px;
+}
+
 #section-1 .textContainer {
   position: absolute;
   top: 130px;
